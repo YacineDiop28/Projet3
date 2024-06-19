@@ -1,0 +1,22 @@
+body{
+    background-color: #F5FAFE ;
+}
+.mb-4{
+    color: #0F3CBF  ;
+    font-weight: bold;
+}
+.navbar-toggler{
+    color: darkkhaki;
+}
+p{
+    color: #635D88 ;
+    left: 5px;
+}
+.image-right{
+    margin-left: auto;
+    
+
+}
+h2{
+    text-decoration: underline;
+}

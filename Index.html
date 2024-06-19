@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Le titre-->
+    <title>Restaurant</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Style.css">
+    <script src="https://kit.fontawesome.com/bfc309c530.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Les Délices de Yass</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--La barre du navigation-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#apropos">À propos de nous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Section Héros -->
+<section class="hero text-center py-5" style="background-image: url('/image/Yellow\ Emblem\ Restaurant\ Logo.png');">
+    <div class="container">
+        <h1 class="mb-4">Découvrez notre plat délicieux</h1>
+        <a href="#" class="btn btn-primary btn-lg">Réserver maintenant</a>
+    </div>
+</section>
+    </section>
+
+    <!-- Section des menus -->
+<section id="menu" class="menu py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Menu</h2>
+        <div class="row">
+            <!-- Premier élément de menu -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/image/Athiéké.jpeg" class="card-img-top" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Taboulés d'Athiéké aux crevettes</h5>
+                        <p class="card-text">Du Athiéké accompagnés avec des crevettes</p>
+                        <p class="card-text">Prix: $10</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Deuxième élément de menu -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/P1.jpeg" class="card-img-top" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title">filet de boeuf</h5>
+                        <p class="card-text">filet de boeuf accompagnés avec des légumes et des frittes</p>
+                        <p class="card-text">Prix: $25</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Troisième élément de menu -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/image/P2.jpeg" class="card-img-top" alt="Plat 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tajine marocain au poulet </h5>
+                        <p class="card-text">Tajine au poulet accompagnés avec des légumes et du riz </p>
+                        <p class="card-text">Prix: $15</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- Section À propos de nous -->
+<section id="apropos" class="about py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Colonne de l'image -->
+            <div class="col-md-6 mb-4 ml-auto">
+                <img src="/image/images (1).jpeg" class="img-fluid" alt="Restaurant">
+            </div>
+            <!-- Colonne du paragraphe -->
+            <div class="col-md-6 mb-4">
+                <h2>À propos de nous</h2>
+                <p>Aujourd’hui, notre chef vous propose une cuisine traditionnelle raffinée, élaborée avec des produits frais, de saison dans un décor feutré, en plein cœur du 15ème arrondissement de Paris. Une grande terrasse vous accueille en été et en hiver tout au long de la journée. Un must : nos plateaux de fruits de mer ! L'Armandie a le plaisir de vous proposer une large sélection de fruits de mer frais, servis sur place ou à emporter.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section Contacts -->
+<section id="contact" class="contact py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Laissez-nous un commentaire</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form id="contact-form" method="post" action="envoyer_formulaire.php">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="nom" placeholder="Nom" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Bas de page -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; 2024 Votre Restaurant. Tous droits réservés.</p>
+            </div>
+            <!-- ICONES-->
+     <div class="icones">
+        <a href="instagram.com" target="_blank" rel="noopener noopener"><i class="fa-brands fa-instagram"></i></a>
+       <a href=""><i class="fa-brands fa-linkedin"></i></a>
+       <a href=""><i class="fa-brands fa-snapchat"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a> <br>
+   </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+                       
